@@ -16,7 +16,20 @@ h1 {
     height:400px;
     margin-top:10px;
     }
-
+    @media screen and (max-width: 600px) {
+        #conteneur{
+            /* float:left; */
+            position:fixed;
+            bottom: 5px;
+            left:10px;
+          }
+        }
+          @media screen and (min-width: 600px) {
+			#icomenu{
+				display:none;
+			}
+    }
+            
 .img1{
     width:750px;
     height:750px;
