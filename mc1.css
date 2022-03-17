@@ -3,9 +3,10 @@ body{background:-webkit-gradient(linear, left top, right bottom, from(#666463), 
 *{margin:padding 0;
 }
 h1 {
-    font-size: 42pt;
-    margin-top: 50pt; 
-    text-align: Center;     
+    font-size: 32pt;
+    margin-top: 20pt;
+    margin-left: 10pt; 
+         
 }
 
 .text { font-size:18pt; color:white; margin:200px;}
@@ -38,7 +39,7 @@ h1 {
       
 }
 li{
-width:900px;
+width:1000px;
 height:51px;
 background:-webkit-gradient(linear, left top, right bottom, from(rgb(133, 20, 5)), to(rgb(250, 147, 11)));
 padding:5pt;
