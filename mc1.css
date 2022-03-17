@@ -3,9 +3,9 @@ body{background:-webkit-gradient(linear, left top, right bottom, from(#666463), 
 *{margin:padding 0;
 }
 h1 {
-    font-size: 35pt;
-     margin-left: 50% 
-                              
+    font-size: 42pt;
+    margin-top: 50pt; 
+    text-align: Center;     
 }
 
 .text { font-size:18pt; color:white; margin:200px;}
@@ -25,7 +25,7 @@ h1 {
       
 }
 li{
-width:1090px;
+width:900px;
 height:51px;
 background:-webkit-gradient(linear, left top, right bottom, from(rgb(133, 20, 5)), to(rgb(250, 147, 11)));
 padding:5pt;
@@ -38,7 +38,7 @@ list-style-type:none;
 filter:alpha(opacity=80);opacity:0.8;
 }
 
-p{font-size:18pt; color:white; margin:right 30px; padding:-15px;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+p{font-size:13pt; color:white; margin:right 30px; padding:-15px;font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
 i,p{display:inline-block; transition:all 5s ease;}
 
