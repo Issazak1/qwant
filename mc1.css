@@ -2,16 +2,19 @@ body{background:-webkit-gradient(linear, left top, right bottom, from(#666463), 
 }
 *{margin:padding 0;
 }
-h1 {
-    font-size: 32pt;
-    margin-top: 20pt;
-    margin-left: 10pt; 
-         
-}
+
+h1{
+        font-size:38pt;
+        margin-top: 3.8cm;
+        margin-right: 2cm;
+        margin-left: -1cm;      
+    }
 
 .text { font-size:18pt; color:white; margin:200px;}
 
+
 .social{
+
     float: left;
     width:500px;
     height:400px;
@@ -26,11 +29,12 @@ h1 {
           }
         }
           @media screen and (min-width: 600px) {
-			#icomenu{
+			#conteneur{
 				display:none;
 			}
     }
-            
+   
+        
 .img1{
     width:750px;
     height:750px;
@@ -39,7 +43,7 @@ h1 {
       
 }
 li{
-width:1000px;
+width:800px;
 height:51px;
 background:-webkit-gradient(linear, left top, right bottom, from(rgb(133, 20, 5)), to(rgb(250, 147, 11)));
 padding:5pt;
