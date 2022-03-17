@@ -1,0 +1,39 @@
+p 
+     { 
+       text-align: justify;
+       color: black;  
+       font-size: 22pt;
+       font-weight: bold;
+       text-align-last: auto;
+       margin-right: 12%;
+       margin-left: 10% 
+    }  
+    
+    ul {
+        
+        color: black;  
+        font-size: 25pt;
+        font-weight: bold;
+        text-align-last: auto;
+        margin-left: 10% 
+    }
+
+    body{background:-webkit-gradient(linear, left top, right bottom, from(#918c8a), to(#00fff24d)); 
+    }
+
+    h1 {
+        font-size: 35pt;
+         margin-left: 10%                            
+    }
+
+    h2 {
+        font-size: 30pt;
+         margin-left: 10%; 
+         margin-right: 10%;
+                             
+    }
+
+    h3 {
+        font-size: 25pt;
+         margin-left: 10%                            
+    }

@@ -1,0 +1,111 @@
+body{background:-webkit-gradient(linear, left top, right bottom, from(#666463), to(#57e6de4d)); 
+}
+*{margin:padding 0;
+}
+h1 {
+    font-size: 35pt;
+     margin-left: 50% 
+                              
+}
+
+.text { font-size:18pt; color:white; margin:200px;}
+
+.social{
+    float: left;
+    width:500px;
+    height:400px;
+    margin-top:10px;
+    }
+
+.img1{
+    width:750px;
+    height:750px;
+    background-color: none;
+    border-radius:100%;
+      
+}
+li{
+width:1090px;
+height:51px;
+background:-webkit-gradient(linear, left top, right bottom, from(rgb(133, 20, 5)), to(rgb(250, 147, 11)));
+padding:5pt;
+margin-top:1pt;
+border-radius:0px 250px 250px 0px;
+line-height:25pt;
+text-align:right;
+transition:all 1s ease;
+list-style-type:none;
+filter:alpha(opacity=80);opacity:0.8;
+}
+
+p{font-size:18pt; color:white; margin:right 30px; padding:-15px;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+i,p{display:inline-block; transition:all 5s ease;}
+
+
+img{width:50px;
+height:50px;
+background:none;
+border-radius:100%;
+color:black;
+text-align:center;
+padding-top:0px;
+margin-right:0px;
+-webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease ;
+}
+.img:hover {
+-webkit-transform: rotate(1480deg);
+transform: rotate(1480deg);
+}
+li:hover{
+transform:translate(200px);
+background:rgba(255, 255, 255, 0.5);
+}
+
+li:hover i{
+transform:rotate(360deg);
+background:black;
+color:white;
+}
+
+li:hover p{
+color:black;
+}
+
+li{margin-left:-800px;
+}
+
+body {
+margin: 0;
+font-family: 'Roboto';
+font-size: 16px;
+display: flex;
+flex-direction: column;
+height: 50vh;
+justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0;
+}
+    button {
+        flex: 0 0 auto;
+        margin: 0 5px;    
+        cursor: pointer;
+        color: rgb(100, 11, 11);
+        background: none;
+        border: 1px solid;
+        letter-spacing: 3px;
+        padding: 5px 10px;
+    }
+
+    .pic{
+        width:433px;
+        height:650px;
+        margin:auto;
+        margin-top :700pt;
+        border-radius: 0;
+        } 
