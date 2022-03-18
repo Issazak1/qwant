@@ -4,6 +4,13 @@ body{background:-webkit-gradient(linear, left top, right bottom, from(#666463), 
 }
 
 h1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+h2{
         font-size:32pt;
         margin-top: 3.7cm;
         margin-right: 2cm;
