@@ -45,9 +45,10 @@ p
         border: 1px #23282d solid;
     }
 
-    @media (max-width: 800px) {
+    @media (max-width: 100%) {
         .container img{
-          flex-direction: column;      
+          flex-direction: column; 
+          overflow: hidden;    
         }
       }
     
@@ -60,7 +61,7 @@ p
         border: 1px #23282d solid;
         }
     
-        @media (max-width: 800px) {
+        @media (max-width:100%) {
         .video img{
           flex-direction: column;
         }
