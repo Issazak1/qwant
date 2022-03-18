@@ -47,7 +47,7 @@ p
 
     @media (max-width: 800px) {
         .container img{
-          flex-direction: column;
+          flex-direction: column;      
         }
       }
     
@@ -58,8 +58,9 @@ p
         justify-content: center;
         flex-direction: row;
         border: 1px #23282d solid;
-    }
-    @media (max-width: 800px) {
+        }
+    
+        @media (max-width: 800px) {
         .video img{
           flex-direction: column;
         }
