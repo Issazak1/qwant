@@ -39,28 +39,30 @@ p
     }
     .container {
         display: flex;
+        flex-direction: row;
         align-items:center;
         justify-content: center;
-        width: 1500px; 
-        height: 700px; 
         border: 1px #23282d solid;
     }
-    .container img {
-        width: 800px; 
-        height: 500px;
-    }
 
+    @media (max-width: 800px) {
+        .container img{
+          flex-direction: column;
+        }
+      }
+    
+    
     .video {
         display: flex;
         align-items:center;
         justify-content: center;
-        width: 1500px; 
-        height: 700px; 
+        flex-direction: row;
         border: 1px #23282d solid;
     }
-    .video img {
-        width: 1000px; 
-        height: 650px;
-    }
+    @media (max-width: 800px) {
+        .video img{
+          flex-direction: column;
+        }
+      }
 
     
